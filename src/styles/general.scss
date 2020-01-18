@@ -1,0 +1,42 @@
+// .showbody_overlay {
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+//     opacity: .5;
+//     z-index: 1;
+//     position: fixed;
+//     visibility: visible;
+//     background: rgba(0, 0, 0, 0.5);
+//     transition: all .3s ease-in-out;
+// }
+
+// .opacity_zaro {
+//     opacity: 0;
+// }
+// .opacity_one {
+//     opacity: 1;
+//     top: 50px !important;
+// }
+
+// .whitecolor {
+//     color: #fff !important;
+// }
+
+// buttons
+.temp_button {
+    color: $black;
+    padding: 5px 22px;
+    border-radius: 18px;
+    vertical-align: top;
+    display: inline-block;
+    background: transparent;
+    border: 1px solid $main-color;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    &:hover {
+        background-color: $main-color;
+        color: $white;
+    }
+}
